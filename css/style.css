@@ -92,6 +92,33 @@
     height: 470px;
   }
 
+  .caixa-jogos img {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+  }
+
+  .data-postada {
+    border-top: 2px solid rgba(0, 0, 0, 0.479);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.479);
+    padding: 7px;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+  }
+
+  .descricao {
+    font-size: 14px;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    padding-top: 30px;
+  }
+
+  .descricao-texto {
+    line-height: 1.2em;
+    text-align: justify;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
   #lado-direito {
     padding: 10px;
     float: right;
