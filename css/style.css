@@ -129,6 +129,20 @@
     border-radius: 10px;
   }
 
+  @media screen and (max-width: 360px){
+    .caixa-jogos {
+      margin-right: 30px;
+      margin-bottom: 30px;
+      box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
+      padding: 10px 10px 60px;
+      border-radius: 10px;
+      background-color: grey;
+      min-width: 320px;
+      max-width: 610px;
+      height: 470px;
+    }
+  }
+
   @media (max-width: 1186px) {
     body {
       overflow-x: hidden;
