@@ -129,7 +129,7 @@
     border-radius: 10px;
   }
 
-  @media screen and (max-width: 360px){
+  @media screen and (max-width: 476px){
     .caixa-jogos {
       margin-right: 30px;
       margin-bottom: 30px;
