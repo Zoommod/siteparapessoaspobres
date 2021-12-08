@@ -36,6 +36,7 @@
   }
 
   #conteudo-princi {
+    display: inline-block;
     padding-top: 20px;
     padding-left: 20px;
     height: 3001px;
@@ -55,7 +56,17 @@
     max-width: 610px;
     height: 470px;
   }
-  
+
+  #lado-direito {
+    padding: 10px;
+    float: right;
+    margin-top: 30px;
+    width: 230px;
+    height: 350px;
+    background-color: grey;
+    border-radius: 10px;
+  }
+
   .nav-list {
     list-style: none;
     display: flex;
@@ -78,7 +89,7 @@
     margin: 8px;
     transition: 0.3s;
   }
-  
+
   @media (max-width: 1186px) {
     body {
       overflow-x: hidden;
