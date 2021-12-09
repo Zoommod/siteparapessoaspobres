@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -137,7 +139,8 @@
   */
 
   .paginas {
-    height: 4vh;
+    padding-top: 20px;
+    height: 6vh;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     margin: 6px 0;
@@ -164,10 +167,11 @@
   }
 
   footer {
-    color: #fff;
+    color: #777;
     background-color: #23232e;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    padding: 4px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    padding: 15px;
     text-align: center;
   }
 
