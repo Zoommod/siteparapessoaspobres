@@ -4,8 +4,8 @@
   }
 
   body {
-    background-image: url('/img/black-bg3.png');
-    
+    height: 100vh;
+    background: black url('/img/bg.jpg') center center/cover no-repeat fixed;
   }
   
   a {
@@ -71,7 +71,7 @@
     display: inline-block;
     padding-top: 20px;
     padding-left: 20px;
-    height: 3001px;
+    height: 3150px;
     min-width: 320px;
     max-width: 670px;
     color: #fff;
@@ -135,6 +135,23 @@
     border-radius: 10px;
   }
   */
+
+  .paginas {
+    clear: both;
+    overflow: hidden;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+    position: relative;
+    font-size: 16px;
+    font-family: "Poppins", "Roboto", sans-serif;
+  }
+
+  .paginas ul {
+    position: relative;
+    margin: 0 -3px;
+    list-style: none;
+    text-align: center;
+  }
 
   footer {
     color: #fff;
