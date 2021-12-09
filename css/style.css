@@ -139,11 +139,11 @@
   */
 
   .paginas {
-    padding-top: 20px;
+    
     height: 6vh;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    margin: 6px 0;
+    margin: 60px 0 6px;
     overflow: hidden;
     clear: left;
     white-space: nowrap;
