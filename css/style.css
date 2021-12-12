@@ -7,7 +7,7 @@
 
   body {
     height: 100vh;
-    background: url('/img/bg.jpg') center center/cover no-repeat fixed;
+    background: black url('/img/bg.jpg') center center/cover no-repeat fixed;
   }
   
   a {
