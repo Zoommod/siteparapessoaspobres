@@ -171,6 +171,14 @@
     text-align: center;
   }
 
+  @media screen and (max-height: 972px) {
+    #container-geral {
+      height: auto;
+    }
+    
+  }
+
+
   @media screen and (max-width: 476px){
     .caixa-jogos {
       margin-right: 30px;
@@ -181,7 +189,6 @@
       background-color: grey;
       min-width: 320px;
       max-width: 610px;
-      height: 940px;
     }
   }
 
