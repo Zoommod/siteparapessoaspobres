@@ -129,6 +129,7 @@
   }
 
   #paragrafo-down {
+    font-weight: bold;
     margin: -10px -10px 0 -10px;
     text-align: center; 
     border-top: 2px solid rgba(0, 0, 0, 0.479);
@@ -143,9 +144,12 @@
   }
 
   .container-download p{
+    text-align: justify;
     background-color: rgba(102, 51, 153, 0.918);
     display: table;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    width: 200px;
+    font-size: 14px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.418);
     margin: 10px;
     padding: 5px;
