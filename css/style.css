@@ -140,7 +140,6 @@
   */
 
   .paginas {
-    
     height: 6vh;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
@@ -165,6 +164,17 @@
     display: inline-block;
     padding: 0;
     margin: 0 5px;
+  }
+
+  .paginas ul li a, .paginas ul li a.no-page:hover {
+    display: inline-block;
+    border: 2px solid #222;
+    background-color: rgb(36, 33, 33);
+    color: #ccc;
+    margin-bottom: 2px;
+    padding: 4px 8px;
+    text-decoration: none;
+    transition: all .15s;
   }
 
   footer {
